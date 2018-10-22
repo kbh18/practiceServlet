@@ -36,7 +36,7 @@ public class Servlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String htmlResponse = "<html>";
-		htmlResponse+="<h2> your name is" + username + "<br/>"; 
+		htmlResponse+="<h2> your name is" + username +"ww"+ "<br/>"; 
 		htmlResponse+=" your password is " + password + "<h2/>";
 		htmlResponse+="</html>";
 		
